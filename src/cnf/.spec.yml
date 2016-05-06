@@ -1,0 +1,14 @@
+summary  : config
+contents : 
+  cnf-1 : read yaml file
+  cnf-2 : 
+    cnf-2-0 : check config syntax
+    cnf-2-1 : group key required
+    cnf-2-2 : session key required under group
+    cnf-2-3 : urlmap key required under group
+    cnf-2-4 : check only string if __any__ group key
+  cnf-3 : 
+    cnf-3-0 : check config contents
+    cnf-3-1 : url contents must be file path that exists
+    cnf-3-2 : __any__ key must specify bottom of group
+   
